@@ -119,14 +119,6 @@ echo -e "\nAfter connecting, run ${GREEN}./am-i-mullvad.sh${NC}"
 # inpiration
 # https://securityespresso.org/tutorials/2019/03/22/vpn-server-using-wireguard-on-ubuntu/
 
-## what I used on o2 in italy
-#WG_QUICK_USERSPACE_IMPLEMENTATION=boringtun wg-quick up ./mullvad-it1.conf
-#WG_QUICK_USERSPACE_IMPLEMENTATION=boringtun wg-quick down ./mullvad-it1.conf
-
-## TODO
-# auto connect? figure out config file sorting out bullshit
-#
-
 # INSPIRATION
 # https://github.com/phvr/mullvad-wg/blob/master/mullvad
 # https://github.com/burghardt/easy-wg-quick
